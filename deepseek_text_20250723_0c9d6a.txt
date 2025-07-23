@@ -1,0 +1,26 @@
+FriendCosmetics/
+├── build.gradle
+├── gradle.properties
+├── settings.gradle
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── example/
+│   │   │           └── friendcosmetics/
+│   │   │               ├── FriendCosmeticsClient.java
+│   │   │               ├── FriendCosmeticsMenu.java
+│   │   │               ├── FriendManager.java
+│   │   │               ├── PlayerCapeRenderer.java
+│   │   │               └── PlayerHatRenderer.java
+│   │   └── resources/
+│   │       ├── assets/
+│   │       │   └── friendcosmetics/
+│   │       │       ├── textures/
+│   │       │       │   ├── cape.png
+│   │       │       │   └── chinese_hat.png
+│   │       │       └── lang/
+│   │       │           └── en_us.json
+│   │       ├── fabric.mod.json
+│   │       └── friendcosmetics.mixins.json
+└── README.md
