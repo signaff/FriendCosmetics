@@ -1,0 +1,9 @@
+FriendCosmetics-1.21.1-v1.0.0.zip/
+├── FriendCosmetics-1.21.1-v1.0.0.jar    ← Собранный файл мода
+├── config/
+│   └── friendcosmetics/
+│       ├── config.json                  ← Конфигурационный файл
+│       └── friends.txt                  ← Список друзей
+└── textures/                           (опционально)
+    ├── custom_cape.png                  ← Пример кастомного плаща
+    └── custom_hat.png                   ← Пример кастомной шляпы

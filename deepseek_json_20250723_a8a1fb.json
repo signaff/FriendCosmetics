@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "friendcosmetics",
+  "version": "1.0.0",
+  "name": "Friend Cosmetics",
+  "description": "Adds capes and hats for your friends!",
+  "authors": ["You"],
+  "contact": {
+    "homepage": "https://example.com/",
+    "sources": "https://github.com/example/friendcosmetics"
+  },
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.example.friendcosmetics.FriendCosmeticsClient"],
+    "client": ["com.example.friendcosmetics.FriendCosmeticsClient"]
+  },
+  "mixins": [
+    "friendcosmetics.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=17"
+  }
+}
